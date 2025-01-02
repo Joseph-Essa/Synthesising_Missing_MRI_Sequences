@@ -10,7 +10,6 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 - Generate missing MRI sequences (T1, T2, FLAIR, T1ce) from available sequences
 - Integrated DICOM viewer with advanced processing tools
-- Cloud-based accessibility for medical professionals
 - High-quality synthesis using Squeeze-Attention U-Net and PatchGAN
 - Comprehensive preprocessing pipeline for optimal results
 
@@ -148,19 +147,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📚 Citation
-
-If you use this work in your research, please cite:
-```bibtex
-@article{your-paper-reference,
-  title={MRI Missing Sequence Synthesis using GANs},
-  author={Your Name},
-  year={2025}
-}
 ```
 
 ## 🙏 Acknowledgments
 
 - Dr. Amr S. Ghoneim for supervision and guidance
 - BA-HPC Bibliotheca Alexandrina support team
-- TA. Eng / Abdallah Essam for technical assistance
