@@ -149,5 +149,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Dr. Amr S. Ghoneim for supervision and guidance
 - BA-HPC Bibliotheca Alexandrina support team
----
-
+- TA. Eng / Abdallah Essam for technical assistance
