@@ -19,6 +19,8 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 - Our developed application provides an interface for reviewing MRI sequences side-by-side, enabling efficient detection and assessment of artifacts in each slice of the sequences.
 ![](./GIFs/norm.gif)
 
+- Artifacts That We Found On Dataset
+![](./GIFs/صورة5.png) 
 
 ## 🎯 Model Architecture
 
