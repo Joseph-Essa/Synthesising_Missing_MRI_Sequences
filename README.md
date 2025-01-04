@@ -14,9 +14,10 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 - High-quality synthesis using Squeeze-Attention U-Net and PatchGAN
 - Comprehensive preprocessing pipeline for optimal results
 
-## Preparing The Data
+## 🛠️ Preparing The Data
 ### Application for Reviewing MRI Sequences
 - Our developed application provides an interface for reviewing MRI sequences side-by-side, enabling efficient detection and assessment of artifacts in each slice of the sequences.
+
 ![](./GIFs/norm.gif)
 
 - Artifacts That We Found On Dataset
@@ -24,17 +25,18 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ## 🎯 Model Architecture
 
+### Complete GAN Framework
+[Place your Complete GAN Framework image here]
+![GAN Framework](/GIFs/صورة6.png)
+
 ### Generator Network
 [Place your Generator Network Architecture image here]
-![Generator Architecture](path/to/generator_architecture.png)
+![Generator Architecture](/GIFs/صورة7.png)
 
 ### Discriminator Network
 [Place your Discriminator Network Architecture image here]
-![Discriminator Architecture](path/to/discriminator_architecture.png)
+![Discriminator Architecture](/GIFs/صورة8.png)
 
-### Complete GAN Framework
-[Place your Complete GAN Framework image here]
-![GAN Framework](path/to/gan_framework.png)
 
 ## 📊 Results
 
