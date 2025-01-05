@@ -167,6 +167,7 @@ brainmri-synthesis/
 ├── results/
 │   └── prediction/
 └── Documentation/
+    └── Documentation.pdf
 ```
 
 ## 📄 License
