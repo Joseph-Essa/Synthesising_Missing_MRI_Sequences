@@ -26,24 +26,24 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ## 🎯 Model Architecture
 
-### Complete GAN Framework
+- ### Complete GAN Framework
 
 ![GAN Framework](/GIFs/صورة4.png)
 
-### Generator Network
+- ### Generator Network
 
 ![Generator Architecture](/GIFs/صورة.png)
 
-### Discriminator Network
+- ### Discriminator Network
 
 ![Discriminator Architecture](/GIFs/صورة8.png)
 
 
 ## 📊 Results
 
-### Synthesis Results
+- ### Synthesis Results
 
-![Synthesis Results](./GIFs/norm1.gif)
+![Synthesis Results](./GIFs/normResult.gif)
 
 ### Performance Metrics
 
