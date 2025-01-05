@@ -22,7 +22,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 - Artifacts That We Found On Dataset
 
-![](./GIFs/صورة5.png) 
+![](./GIFs/Artifacts.png) 
 
 ## 🎯 Model Architecture
 
@@ -48,6 +48,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ### Performance Metrics
 
 - #### T2 Synthesis Results
+
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T1 → T2        | 90.83%  | 0.027 | 27.46  |
@@ -57,6 +58,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ![T2 Results](./GIFs/normT2.gif)
 
 - #### T1 Synthesis Results
+
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T2 → T1        | 86.77%  | 0.042 | 24.91  |
@@ -67,6 +69,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ![T1 Results](./GIFs/normT1.gif)
 
 - #### FLAIR Synthesis Results
+
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T2 → T1        | 82.03%  | 0.051 | 24.80  |
@@ -77,6 +80,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ![FLAIR Results](./GIFs/normFlair.gif)
 
 - #### Total Loss Over Epochs
+
 ![Loss](./GIFs/صورة7.png)
 
 ## 💻 Web Application Demo
@@ -143,6 +147,10 @@ The project utilizes the BraTS2023 dataset:
 - Expert-annotated by neuroradiologists
 - Standardized dimensions: 240×240×155 voxels
 
+## 📚 Project Documentation
+ 
+For More Details About The Project Check It out [Documentation](./Documentation/Final%20documentation.pdf)
+
 ## 🔍 Project Structure
 ```
 brainmri-synthesis/
@@ -156,11 +164,9 @@ brainmri-synthesis/
 ├── webapp/
 │   ├── frontend/
 │   └── backend/
-├── data/
-│   └── processed/
 ├── results/
-│   └── experiments/
-└── docs/
+│   └── prediction/
+└── Documentation/
 ```
 
 ## 📄 License
