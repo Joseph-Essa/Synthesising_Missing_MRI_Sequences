@@ -15,7 +15,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 - Comprehensive preprocessing pipeline for optimal results
 
 ## 🛠️ Preparing The Data
-### Application for Reviewing MRI Sequences
+## Application for Reviewing MRI Sequences
 - Our developed application provides an interface for reviewing MRI sequences side-by-side, enabling efficient detection and assessment of artifacts in each slice of the sequences.
 
 ![](./GIFs/norm.gif)
