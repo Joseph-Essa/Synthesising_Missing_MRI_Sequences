@@ -76,6 +76,8 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ![FLAIR Results](./GIFs/normFlair.gif)
 
+- #### Total Loss Over Epochs
+![Loss](./GIFs/صورة7.png)
 
 ## 💻 Web Application Demo
 
