@@ -1,6 +1,6 @@
 # 🧠 BrainMRI Synthesis: Advanced Medical Imaging with GANs
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE.txt)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)](https://www.tensorflow.org/)
 
@@ -47,7 +47,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ### Performance Metrics
 
-#### T2 Synthesis Results
+- #### T2 Synthesis Results
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T1 → T2        | 90.83%  | 0.027 | 27.46  |
@@ -56,7 +56,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ![T2 Results](./GIFs/normT2.gif)
 
-#### T1 Synthesis Results
+- #### T1 Synthesis Results
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T2 → T1        | 86.77%  | 0.042 | 24.91  |
@@ -66,7 +66,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 ![T1 Results](./GIFs/normT1.gif)
 
-#### FLAIR Synthesis Results
+- #### FLAIR Synthesis Results
 | Input Sequence | SSIM    | MAE   | PSNR   |
 |----------------|---------|-------|---------|
 | T2 → T1        | 82.03%  | 0.051 | 24.80  |
@@ -80,6 +80,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ## 💻 Web Application Demo
 
 ![Web App Demo](./GIFs/normWebAppDemo.gif)
+
 ## 🛠️ Technical Requirements
 
 ### Model Dependencies
@@ -162,7 +163,7 @@ brainmri-synthesis/
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
 
 
 ## 🙏 Acknowledgments
