@@ -21,40 +21,31 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 ![](./GIFs/norm.gif)
 
 - Artifacts That We Found On Dataset
+
 ![](./GIFs/صورة5.png) 
 
 ## 🎯 Model Architecture
 
 ### Complete GAN Framework
-[Place your Complete GAN Framework image here]
-![GAN Framework](/GIFs/صورة6.png)
+
+![GAN Framework](/GIFs/صورة4.png)
 
 ### Generator Network
-[Place your Generator Network Architecture image here]
-![Generator Architecture](/GIFs/صورة7.png)
+
+![Generator Architecture](/GIFs/صورة.png)
 
 ### Discriminator Network
-[Place your Discriminator Network Architecture image here]
+
 ![Discriminator Architecture](/GIFs/صورة8.png)
 
 
 ## 📊 Results
 
 ### Synthesis Results
-[Place your synthesis results GIF/images here]
-![Synthesis Results](path/to/synthesis_results.gif)
+
+![Synthesis Results](./GIFs/norm1.gif)
 
 ### Performance Metrics
-
-#### T1 Synthesis Results
-| Input Sequence | SSIM    | MAE   | PSNR   |
-|----------------|---------|-------|---------|
-| T2 → T1        | 86.77%  | 0.042 | 24.91  |
-| T1CE → T1      | 90.63%  | 0.033 | 26.43  |
-| FLAIR → T1     | 86.29%  | 0.043 | 24.42  |
-
-[Place your T1 Loss Graph here]
-![T1 Loss](path/to/t1_loss.png)
 
 #### T2 Synthesis Results
 | Input Sequence | SSIM    | MAE   | PSNR   |
@@ -63,13 +54,32 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 | T1CE → T2      | 90.77%  | 0.022 | 28.42  |
 | FLAIR → T2     | 90.32%  | 0.022 | 28.05  |
 
-[Place your T2 Loss Graph here]
-![T2 Loss](path/to/t2_loss.png)
+![T2 Results](./GIFs/normT2.gif)
+
+#### T1 Synthesis Results
+| Input Sequence | SSIM    | MAE   | PSNR   |
+|----------------|---------|-------|---------|
+| T2 → T1        | 86.77%  | 0.042 | 24.91  |
+| T1CE → T1      | 90.63%  | 0.033 | 26.43  |
+| FLAIR → T1     | 86.29%  | 0.043 | 24.42  |
+
+
+![T1 Results](./GIFs/normT1.gif)
+
+#### FLAIR Synthesis Results
+| Input Sequence | SSIM    | MAE   | PSNR   |
+|----------------|---------|-------|---------|
+| T2 → T1        | 82.03%  | 0.051 | 24.80  |
+| T1CE → T1      | 83.99.63%  | 0.030 | 27.12  |
+| FLAIR → T1     | 83.68%  | 0.028 | 26.91  |
+
+
+![FLAIR Results](./GIFs/normFlair.gif)
+
 
 ## 💻 Web Application Demo
-[Place your web application demo GIF here]
-![Web App Demo](path/to/webapp_demo.gif)
 
+![Web App Demo](./GIFs/normWebAppDemo.gif)
 ## 🛠️ Technical Requirements
 
 ### Model Dependencies
@@ -98,7 +108,7 @@ Transform single MRI sequences into comprehensive multi-sequence scans using adv
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/brainmri-synthesis.git
+git clone https://github.com/Joseph-Essa/Synthesising_Missing_MRI_Sequences.git
 cd brainmri-synthesis
 ```
 
