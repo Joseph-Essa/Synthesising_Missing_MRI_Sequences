@@ -153,19 +153,20 @@ For More Details About The Project Check It out [Documentation](./Documentation/
 
 ## 🔍 Project Structure
 ```
-brainmri-synthesis/
+Synthesising_Missing_MRI_Sequences/
 ├── model/
 │   ├── generator.py
 │   ├── discriminator.py
 │   └── training.py
 ├── preprocessing/
-│   ├── normalize.py
-│   └── augmentation.py
+    ├── data_generator.py
+│   ├── nii_Images_preprocessing.py
+│   └── normalize.py
 ├── webapp/
 │   ├── frontend/
 │   └── backend/
 ├── results/
-│   └── prediction/
+│   └── Final_Prediction.ipynb/
 └── Documentation/
     └── Documentation.pdf
 ```
